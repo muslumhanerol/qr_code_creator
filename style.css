@@ -36,5 +36,21 @@ body{
     box-sizing: border-box;
 }
 .form input{
-    
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 20px;
+    background-color: #dcd9d9;
+    border-radius: 5px;
+    font-family: Poppins;
+}
+.form button{
+    background-color: #2aca8e;
+    width: 100%;
+    border: none;
+    content: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: Poppins;
 }
