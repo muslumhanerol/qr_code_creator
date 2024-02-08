@@ -49,7 +49,7 @@ body{
     text-align: center;
 }
 .form button{
-    background-color: #2aca8e;
+    background-color:blanchedalmond;
     width: 100%;
     border: none;
     content: #fff;
@@ -60,5 +60,5 @@ body{
     font-weight: bold;    
 }
 .form button:hover{
-    width:200px ;
+    background-color: #2aca8e;
 }
