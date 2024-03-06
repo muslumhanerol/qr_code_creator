@@ -10,27 +10,13 @@
     <div class="container">
         <h1>QR Kod Oluşturucu</h1>
         <div class="image">
-            <img src="empty-image.jpg" alt="" id="image">
+            <img id="image">
         </div>
         <div class="form">
             <input type="text" id="content" placeholder="QR Kod İçeriğini yazınız">
-            <button id="btnCreate">QR Kod Oluştur</button>
+            <button id="btnCreate">QR Kodu Oluştur</button>
         </div>
     </div>
-
-    <script>
-        let image = document.getElementById('image');
-        let content = document.getElementById('content');
-        let btnCreate = document.getElementById('btnCreate')
-        btnCreate.onclick = () =>{
-            if(content.value == '') return;
-            let linkQR = 'https://api.qrserver.com/v1/create-qr-code/';
-            image.src = linkQR + '?size=500x500&data=' + content.value;
-        }
-
-    </script>
-
-
-    
+    <script src="index.js"></script>    
 </body>
 </html>
